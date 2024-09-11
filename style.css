@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(
+        135deg,
+        #B3C5D7,
+        #759EB8,
+        #7392B7
+    );
+}
+
+.mainHeading {
+    font-family: "Hind Madurai";
+    color: #D8E1E9;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.clock{
+    width: 550px;
+    height: 150px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.clock div{
+    position: relative;
+    background-color: #C5D5EA;
+    height: 100%;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 60px;
+    color: #202020;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    letter-spacing: 3px;
+}
+
+.clock span{
+    font-weight: bolder;
+    font-size: 60px;
+    color: #ffffff;
+}
